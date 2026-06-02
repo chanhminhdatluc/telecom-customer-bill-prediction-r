@@ -58,6 +58,7 @@ The project followed a structured predictive analytics workflow:
 
 ## Exploratory Data Analysis
 ![Missing Value Analysis](images/missing-values.png)
+
 The exploratory analysis found that many usage-related variables were positively skewed. This suggests that most customers had moderate usage levels, while a smaller group of heavy users showed extremely high usage behaviour.
 
 Several variables also contained missing values, including voice usage, add-on service, and digital engagement variables. Three missing value treatment methods were compared:
@@ -70,6 +71,7 @@ Median imputation was selected as the preferred approach because it preserved th
 
 ## Feature Selection
 ![Correlation Heatmap](images/correlation-heatmap.png)
+
 Correlation analysis and Variance Inflation Factor checking were used to reduce redundancy and multicollinearity.
 
 The strongest billing-related predictors included:
@@ -88,6 +90,7 @@ Two models were developed and compared.
 
 ### Multiple Linear Regression
 ![Regression Actual vs Predicted](images/regression-actual-vs-predicted.png)
+
 The regression model was built to predict customer monthly billing using selected predictors.
 
 Performance:
@@ -101,6 +104,7 @@ The model showed that customer billing is mainly influenced by data activity, ad
 
 ### Decision Tree Regression
 ![Decision Tree Feature Importance](images/decision-tree-feature-importance.png)
+
 A decision tree regression model was also developed to provide a more interpretable, rule-based view of customer billing behaviour.
 
 Performance:
@@ -113,6 +117,7 @@ The decision tree showed that add-on total rental was the most important splitti
 
 ## Model Comparison
 ![Model Comparison](images/model-comparison.png)
+
 The regression model achieved slightly better predictive performance than the decision tree model, with lower RMSE and MAE and a higher R-squared value.
 
 However, the decision tree was useful for business interpretation because it provided clear decision rules and helped explain how different customer groups were associated with different billing levels.
