@@ -136,6 +136,13 @@ The decision tree model should be used as a supporting model for customer segmen
 - Off-network voice usage may increase customer billing due to additional usage charges.
 - Decision trees can help translate model outputs into simple business rules.
 
+## Repository Structure
+
+data/       Sample or cleaned dataset files
+images/     Visual outputs and model results
+report/     Project report or summary document
+scripts/    R scripts used for data analysis and modelling
+
 ## Future Improvements
 
 Future versions of this project could improve model performance by:
