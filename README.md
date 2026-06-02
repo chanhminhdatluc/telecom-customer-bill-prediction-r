@@ -146,6 +146,11 @@ Future versions of this project could improve model performance by:
 - Conducting cross-validation
 - Creating an interactive dashboard for billing insights
 
+## Academic Result
+
+This project received a **High Distinction score of 92.83/100**. 
+The feedback highlighted strong exploratory data analysis, appropriate categorical variable transformation, effective missing value handling, well-developed regression and decision tree models, model comparison, and suitable business recommendations.
+
 ## Repository Structure
 
 ```text
@@ -153,3 +158,4 @@ data/       Sample or cleaned dataset files
 images/     Visual outputs and model results
 report/     Project report or summary document
 scripts/    R scripts used for data analysis and modelling
+```
