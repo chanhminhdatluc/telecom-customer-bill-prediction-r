@@ -152,3 +152,11 @@ Future versions of this project could improve model performance by:
 - Comparing random forest and gradient boosting models
 - Conducting cross-validation
 - Creating an interactive dashboard for billing insights
+
+## Repository Structure
+
+```text
+data/       Sample or cleaned dataset files
+images/     Visual outputs and model results
+report/     Project report or summary document
+scripts/    R scripts used for data analysis and modelling
